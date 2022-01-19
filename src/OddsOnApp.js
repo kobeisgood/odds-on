@@ -1,7 +1,7 @@
 import './css/OddsOn.css';
 import { HowToPlay } from './pages/HowToPlay.js';
-import {OddsOn} from './pages/OddsOn.js'
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { OddsOn } from './pages/OddsOn.js'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function OddsOnApp() {
 

@@ -1,9 +1,17 @@
+import { useNavigate } from "react-router-dom"
+
 export const HowToPlay = () => { 
 
-    // TODO: add a description of how to play
+    var navigate = useNavigate()
+    const openOddsOnPage = () => {
+        navigate('/')
+    }
+
+    // TODO: add a description of how to play + layout
     return (
         <div> 
-            this is how you play 
+            <button onClick={openOddsOnPage}> Home </button>
+            <p>this is how you play </p>
         </div>
     ) 
 }
