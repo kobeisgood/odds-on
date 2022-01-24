@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router-dom"
 
 export const HowToPlay = () => { 
-
     var navigate = useNavigate()
     const openOddsOnPage = () => {
         navigate('/')
